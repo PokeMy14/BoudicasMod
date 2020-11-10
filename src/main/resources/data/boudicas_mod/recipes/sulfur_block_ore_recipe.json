@@ -1,0 +1,13 @@
+{
+  "group": "boudicas_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "boudicas_mod:sulfur_block"
+    }
+  ],
+  "result": {
+    "item": "boudicas_mod:sulfur_dust",
+    "count": 9
+  }
+}

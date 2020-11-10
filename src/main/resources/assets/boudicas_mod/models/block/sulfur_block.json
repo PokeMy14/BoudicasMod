@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "boudicas_mod:blocks/sulfur_ore_block",
+    "particle": "boudicas_mod:blocks/sulfur_ore_block"
+  }
+}

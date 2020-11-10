@@ -1,0 +1,85 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "SulfurDust",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sulfur_dust"
+    },
+    {
+      "name": "SulfurOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sulfur_ore"
+    },
+    {
+      "name": "SulfurBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sulfur_block"
+    },
+    {
+      "name": "SulfurOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sulfur_ore_block_recipe"
+    },
+    {
+      "name": "SulfurBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sulfur_block_ore_recipe"
+    },
+    {
+      "name": "SulfurOreSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sulfur_ore_smelting"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.boudicas_mod.sulfur_dust": "Sulfur Dust",
+      "block.boudicas_mod.sulfur_ore": "Sulfur Ore",
+      "block.boudicas_mod.sulfur_block": "Block of Sulfur"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "boudicas_mod",
+    "modName": "Boudica`s Mod",
+    "version": "1.0.0",
+    "author": "AaronAnehasseRomera, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.boudicasmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000543719
+}
