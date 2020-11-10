@@ -54,6 +54,69 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sulfur_ore_smelting"
+    },
+    {
+      "name": "PiritaIngot",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pirita_ingot"
+    },
+    {
+      "name": "PiritaOre",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pirita_ore"
+    },
+    {
+      "name": "PiritaBlock",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pirita_block"
+    },
+    {
+      "name": "PiritaOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pirita_ore_block_recipe"
+    },
+    {
+      "name": "PiritaBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pirita_block_ore_recipe"
+    },
+    {
+      "name": "PiritaOreSmelting",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pirita_ore_smelting"
+    },
+    {
+      "name": "BoudicasMod",
+      "type": "tab",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boudicas_mod"
     }
   ],
   "variable_elements": [],
@@ -61,7 +124,11 @@
   "language_map": {
     "en_us": {
       "item.boudicas_mod.sulfur_dust": "Sulfur Dust",
+      "item.boudicas_mod.pirita_ingot": "Pirita",
+      "itemGroup.tabboudicas_mod": "Boudica\u0027s Mod",
       "block.boudicas_mod.sulfur_ore": "Sulfur Ore",
+      "block.boudicas_mod.pirita_ore": "Pirita Ore",
+      "block.boudicas_mod.pirita_block": "Block of Pirita",
       "block.boudicas_mod.sulfur_block": "Block of Sulfur"
     }
   },

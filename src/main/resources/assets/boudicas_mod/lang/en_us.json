@@ -1,5 +1,9 @@
 {
   "item.boudicas_mod.sulfur_dust": "Sulfur Dust",
+  "item.boudicas_mod.pirita_ingot": "Pirita",
+  "itemGroup.tabboudicas_mod": "Boudica\u0027s Mod",
   "block.boudicas_mod.sulfur_ore": "Sulfur Ore",
+  "block.boudicas_mod.pirita_ore": "Pirita Ore",
+  "block.boudicas_mod.pirita_block": "Block of Pirita",
   "block.boudicas_mod.sulfur_block": "Block of Sulfur"
 }

@@ -1,0 +1,13 @@
+{
+  "group": "boudicas_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "boudicas_mod:pirita_block"
+    }
+  ],
+  "result": {
+    "item": "boudicas_mod:pirita_ingot",
+    "count": 9
+  }
+}

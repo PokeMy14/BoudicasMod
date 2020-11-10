@@ -2,7 +2,7 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "sulfur_ore_block",
+    "texture": "pirita_ore_block",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -24,20 +24,20 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Block of Sulfur",
+    "name": "Block of Pirita",
     "specialInfo": [],
     "hardness": 5.0,
     "resistance": 10.0,
-    "hasGravity": true,
+    "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:SulfurDust"
+      "value": ""
     },
-    "dropAmount": 9,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
@@ -67,7 +67,7 @@
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 4,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

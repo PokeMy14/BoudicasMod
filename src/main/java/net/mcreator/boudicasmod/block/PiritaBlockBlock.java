@@ -11,22 +11,20 @@ import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
-import net.minecraft.block.FallingBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.boudicasmod.item.SulfurDustItem;
 import net.mcreator.boudicasmod.BoudicasModModElements;
 
 import java.util.List;
 import java.util.Collections;
 
 @BoudicasModModElements.ModElement.Tag
-public class SulfurBlockBlock extends BoudicasModModElements.ModElement {
-	@ObjectHolder("boudicas_mod:sulfur_block")
+public class PiritaBlockBlock extends BoudicasModModElements.ModElement {
+	@ObjectHolder("boudicas_mod:pirita_block")
 	public static final Block block = null;
-	public SulfurBlockBlock(BoudicasModModElements instance) {
-		super(instance, 3);
+	public PiritaBlockBlock(BoudicasModModElements instance) {
+		super(instance, 9);
 	}
 
 	@Override
@@ -35,11 +33,11 @@ public class SulfurBlockBlock extends BoudicasModModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
 	}
-	public static class CustomBlock extends FallingBlock {
+	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(5f, 10f).lightValue(0).harvestLevel(2)
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(5f, 10f).lightValue(0).harvestLevel(4)
 					.harvestTool(ToolType.PICKAXE));
-			setRegistryName("sulfur_block");
+			setRegistryName("pirita_block");
 		}
 
 		@Override
@@ -47,7 +45,7 @@ public class SulfurBlockBlock extends BoudicasModModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(SulfurDustItem.block, (int) (9)));
+			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
 }
