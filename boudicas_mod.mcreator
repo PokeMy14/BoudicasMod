@@ -135,21 +135,61 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "copperingot"
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby"
+    },
+    {
+      "name": "Safiro",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "safiro"
+    },
+    {
+      "name": "Alejandrita",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alejandrita"
+    },
+    {
+      "name": "Ammolita",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ammolita"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.boudicas_mod.sulfur_dust": "Sulfur Dust",
       "item.boudicas_mod.silveringot": "Silveringot",
       "item.boudicas_mod.pirita_ingot": "Pirita",
+      "item.boudicas_mod.ruby": "Ruby",
       "itemGroup.tabboudicas_mod": "Boudica\u0027s Mod",
+      "item.boudicas_mod.ammolita": "Ammolita",
       "block.boudicas_mod.sulfur_ore": "Sulfur Ore",
+      "block.boudicas_mod.sulfur_block": "Block of Sulfur",
+      "item.boudicas_mod.copperingot": "Copperingot",
+      "item.boudicas_mod.sulfur_dust": "Sulfur Dust",
       "block.boudicas_mod.pirita_ore": "Pirita Ore",
       "block.boudicas_mod.pirita_block": "Block of Pirita",
-      "block.boudicas_mod.sulfur_block": "Block of Sulfur",
-      "item.boudicas_mod.copperingot": "Copperingot"
+      "item.boudicas_mod.alejandrita": "Alejandrita",
+      "item.boudicas_mod.safiro": "Safiro"
     }
   },
   "workspaceSettings": {
