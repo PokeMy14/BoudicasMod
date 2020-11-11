@@ -117,6 +117,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "boudicas_mod"
+    },
+    {
+      "name": "Silveringot",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silveringot"
     }
   ],
   "variable_elements": [],
@@ -124,6 +133,7 @@
   "language_map": {
     "en_us": {
       "item.boudicas_mod.sulfur_dust": "Sulfur Dust",
+      "item.boudicas_mod.silveringot": "Silveringot",
       "item.boudicas_mod.pirita_ingot": "Pirita",
       "itemGroup.tabboudicas_mod": "Boudica\u0027s Mod",
       "block.boudicas_mod.sulfur_ore": "Sulfur Ore",
