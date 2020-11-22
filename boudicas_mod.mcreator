@@ -180,6 +180,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ambar"
+    },
+    {
+      "name": "Arsenic",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arsenic"
+    },
+    {
+      "name": "Corn",
+      "type": "food",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corn"
     }
   ],
   "variable_elements": [],
@@ -193,8 +211,10 @@
       "itemGroup.tabboudicas_mod": "Boudica\u0027s Mod",
       "item.boudicas_mod.ammolita": "Ammolita",
       "block.boudicas_mod.sulfur_ore": "Sulfur Ore",
+      "item.boudicas_mod.arsenic": "Arsenic",
       "block.boudicas_mod.sulfur_block": "Block of Sulfur",
       "item.boudicas_mod.copperingot": "Copperingot",
+      "item.boudicas_mod.corn": "Corn",
       "item.boudicas_mod.sulfur_dust": "Sulfur Dust",
       "block.boudicas_mod.pirita_ore": "Pirita Ore",
       "block.boudicas_mod.pirita_block": "Block of Pirita",
