@@ -1,0 +1,30 @@
+{
+  "_fv": 13,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "ppala",
+    "customModelName": "Normal",
+    "name": "Piritashovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 1,
+    "efficiency": 6.0,
+    "attackSpeed": 1.5,
+    "enchantability": 14,
+    "damageVsEntity": 4.0,
+    "usageCount": 150,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:PiritaIngot"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

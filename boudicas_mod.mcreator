@@ -207,6 +207,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "piritapickaxe"
+    },
+    {
+      "name": "Piritaaxe",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "piritaaxe"
+    },
+    {
+      "name": "Piritashovel",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "piritashovel"
     }
   ],
   "variable_elements": [],
@@ -225,11 +243,13 @@
       "item.boudicas_mod.copperingot": "Copperingot",
       "item.boudicas_mod.corn": "Corn",
       "item.boudicas_mod.sulfur_dust": "Sulfur Dust",
+      "item.boudicas_mod.piritashovel": "Piritashovel",
       "item.boudicas_mod.piritapickaxe": "Piritapickaxe",
       "block.boudicas_mod.pirita_ore": "Pirita Ore",
       "block.boudicas_mod.pirita_block": "Block of Pirita",
       "item.boudicas_mod.alejandrita": "Alejandrita",
-      "item.boudicas_mod.safiro": "Safiro"
+      "item.boudicas_mod.safiro": "Safiro",
+      "item.boudicas_mod.piritaaxe": "Piritaaxe"
     }
   },
   "workspaceSettings": {
