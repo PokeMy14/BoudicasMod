@@ -243,6 +243,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "rock_drakebonespear"
+    },
+    {
+      "name": "RockDrakescale",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rock_drakescale"
     }
   ],
   "variable_elements": [],
@@ -255,6 +264,7 @@
       "item.boudicas_mod.pirita_ingot": "Pirita",
       "item.boudicas_mod.ruby": "Ruby",
       "itemGroup.tabboudicas_mod": "Boudica\u0027s Mod",
+      "item.boudicas_mod.rock_drakescale": "Rock Drakescale",
       "item.boudicas_mod.ammolita": "Ammolita",
       "block.boudicas_mod.sulfur_ore": "Sulfur Ore",
       "item.boudicas_mod.arsenic": "Arsenic",
