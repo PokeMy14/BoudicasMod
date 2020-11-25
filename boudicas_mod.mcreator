@@ -117,19 +117,123 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "boudicas_mod"
+    },
+    {
+      "name": "PiritaPickaxe",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pirita_pickaxe"
+    },
+    {
+      "name": "PiritaAxe",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pirita_axe"
+    },
+    {
+      "name": "PiritaSword",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pirita_sword"
+    },
+    {
+      "name": "PiritaShovel",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pirita_shovel"
+    },
+    {
+      "name": "PiritaHoe",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pirita_hoe"
+    },
+    {
+      "name": "PiritaPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pirita_pickaxe_recipe"
+    },
+    {
+      "name": "PiritaAxeRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pirita_axe_recipe"
+    },
+    {
+      "name": "PiritaSwordRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pirita_sword_recipe"
+    },
+    {
+      "name": "PiritaShovelRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pirita_shovel_recipe"
+    },
+    {
+      "name": "PiritaHoeRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pirita_hoe_recipe"
+    },
+    {
+      "name": "SurfureDust",
+      "type": "particle",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "surfure_dust"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.boudicas_mod.sulfur_dust": "Sulfur Dust",
+      "item.boudicas_mod.pirita_shovel": "Pirita Shovel",
       "item.boudicas_mod.pirita_ingot": "Pirita",
       "itemGroup.tabboudicas_mod": "Boudica\u0027s Mod",
       "block.boudicas_mod.sulfur_ore": "Sulfur Ore",
+      "block.boudicas_mod.sulfur_block": "Block of Sulfur",
+      "item.boudicas_mod.pirita_axe": "Pirita Axe",
+      "item.boudicas_mod.sulfur_dust": "Sulfur Dust",
       "block.boudicas_mod.pirita_ore": "Pirita Ore",
       "block.boudicas_mod.pirita_block": "Block of Pirita",
-      "block.boudicas_mod.sulfur_block": "Block of Sulfur"
+      "item.boudicas_mod.pirita_sword": "Pirita Sword",
+      "item.boudicas_mod.pirita_pickaxe": "Pirita Pickaxe",
+      "item.boudicas_mod.pirita_hoe": "Pirita Hoe"
     }
   },
   "workspaceSettings": {

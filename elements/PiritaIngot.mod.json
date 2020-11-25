@@ -8,7 +8,7 @@
     "name": "Pirita",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:BoudicasMod"
     },
     "stackSize": 64,
     "enchantability": 0,

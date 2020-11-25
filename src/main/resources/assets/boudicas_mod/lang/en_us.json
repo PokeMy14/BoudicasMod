@@ -1,9 +1,14 @@
 {
-  "item.boudicas_mod.sulfur_dust": "Sulfur Dust",
+  "item.boudicas_mod.pirita_shovel": "Pirita Shovel",
   "item.boudicas_mod.pirita_ingot": "Pirita",
   "itemGroup.tabboudicas_mod": "Boudica\u0027s Mod",
   "block.boudicas_mod.sulfur_ore": "Sulfur Ore",
+  "block.boudicas_mod.sulfur_block": "Block of Sulfur",
+  "item.boudicas_mod.pirita_axe": "Pirita Axe",
+  "item.boudicas_mod.sulfur_dust": "Sulfur Dust",
   "block.boudicas_mod.pirita_ore": "Pirita Ore",
   "block.boudicas_mod.pirita_block": "Block of Pirita",
-  "block.boudicas_mod.sulfur_block": "Block of Sulfur"
+  "item.boudicas_mod.pirita_sword": "Pirita Sword",
+  "item.boudicas_mod.pirita_pickaxe": "Pirita Pickaxe",
+  "item.boudicas_mod.pirita_hoe": "Pirita Hoe"
 }

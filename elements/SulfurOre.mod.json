@@ -31,13 +31,13 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "CUSTOM:BoudicasMod"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
       "value": "CUSTOM:SulfurDust"
     },
-    "dropAmount": 3,
+    "dropAmount": 2,
     "useLootTableForDrops": false,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
@@ -65,12 +65,12 @@
     "soundOnStep": {
       "value": "STONE"
     },
-    "luminance": 0.0,
+    "luminance": 0.01,
     "unbreakable": false,
     "breakHarvestLevel": 2,
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "CUSTOM:SurfureDust"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
