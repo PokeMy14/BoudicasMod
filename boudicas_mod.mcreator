@@ -119,15 +119,6 @@
       "registry_name": "boudicas_mod"
     },
     {
-      "name": "PiritaPickaxe",
-      "type": "tool",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "pirita_pickaxe"
-    },
-    {
       "name": "PiritaAxe",
       "type": "tool",
       "sortid": 15,
@@ -137,13 +128,31 @@
       "registry_name": "pirita_axe"
     },
     {
-      "name": "PiritaSword",
+      "name": "PiritaHoe",
       "type": "tool",
-      "sortid": 16,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "pirita_sword"
+      "registry_name": "pirita_hoe"
+    },
+    {
+      "name": "PiritaSwordRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pirita_sword_recipe"
+    },
+    {
+      "name": "PiritaHoeRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pirita_hoe_recipe"
     },
     {
       "name": "PiritaShovel",
@@ -155,13 +164,40 @@
       "registry_name": "pirita_shovel"
     },
     {
-      "name": "PiritaHoe",
-      "type": "tool",
-      "sortid": 18,
+      "name": "PiritaShovelRecipe",
+      "type": "recipe",
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "pirita_hoe"
+      "registry_name": "pirita_shovel_recipe"
+    },
+    {
+      "name": "SurfureDust",
+      "type": "particle",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "surfure_dust"
+    },
+    {
+      "name": "PiritaPickaxe",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pirita_pickaxe"
+    },
+    {
+      "name": "PiritaSword",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pirita_sword"
     },
     {
       "name": "PiritaPickaxeRecipe",
@@ -182,58 +218,167 @@
       "registry_name": "pirita_axe_recipe"
     },
     {
-      "name": "PiritaSwordRecipe",
-      "type": "recipe",
+      "name": "Ambar",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ambar"
+    },
+    {
+      "name": "Arsenic",
+      "type": "item",
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "pirita_sword_recipe"
+      "registry_name": "arsenic"
     },
     {
-      "name": "PiritaShovelRecipe",
-      "type": "recipe",
+      "name": "Piritashovel",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "piritashovel"
+    },
+    {
+      "name": "Safiro",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "safiro"
+    },
+    {
+      "name": "Corn",
+      "type": "food",
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "pirita_shovel_recipe"
+      "registry_name": "corn"
     },
     {
-      "name": "PiritaHoeRecipe",
-      "type": "recipe",
-      "sortid": 23,
+      "name": "RockDrakebonespear",
+      "type": "tool",
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "pirita_hoe_recipe"
+      "registry_name": "rock_drakebonespear"
     },
     {
-      "name": "SurfureDust",
-      "type": "particle",
+      "name": "RockDrakescale",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rock_drakescale"
+    },
+    {
+      "name": "Copperingot",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperingot"
+    },
+    {
+      "name": "Piritaaxe",
+      "type": "tool",
       "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "surfure_dust"
+      "registry_name": "piritaaxe"
+    },
+    {
+      "name": "Piritapickaxe",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "piritapickaxe"
+    },
+    {
+      "name": "Alejandrita",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alejandrita"
+    },
+    {
+      "name": "Ammolita",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ammolita"
+    },
+    {
+      "name": "Silveringot",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silveringot"
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby"
+    },
+    {
+      "name": "Rockdrakehorn",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rockdrakehorn"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.boudicas_mod.pirita_shovel": "Pirita Shovel",
+      "item.boudicas_mod.silveringot": "Silveringot",
+      "item.boudicas_mod.rockdrakehorn": "Rockdrakehorn",
+      "item.boudicas_mod.ambar": "Ambar",
       "item.boudicas_mod.pirita_ingot": "Pirita",
+      "item.boudicas_mod.ruby": "Ruby",
       "itemGroup.tabboudicas_mod": "Boudica\u0027s Mod",
+      "item.boudicas_mod.rock_drakescale": "Rock Drakescale",
+      "item.boudicas_mod.ammolita": "Ammolita",
       "block.boudicas_mod.sulfur_ore": "Sulfur Ore",
+      "item.boudicas_mod.arsenic": "Arsenic",
       "block.boudicas_mod.sulfur_block": "Block of Sulfur",
-      "item.boudicas_mod.pirita_axe": "Pirita Axe",
+      "item.boudicas_mod.copperingot": "Copperingot",
+      "item.boudicas_mod.corn": "Corn",
       "item.boudicas_mod.sulfur_dust": "Sulfur Dust",
+      "item.boudicas_mod.rock_drakebonespear": "Rock Drake_horn_espear",
+      "item.boudicas_mod.piritashovel": "Piritashovel",
+      "item.boudicas_mod.piritapickaxe": "Piritapickaxe",
       "block.boudicas_mod.pirita_ore": "Pirita Ore",
       "block.boudicas_mod.pirita_block": "Block of Pirita",
-      "item.boudicas_mod.pirita_sword": "Pirita Sword",
-      "item.boudicas_mod.pirita_pickaxe": "Pirita Pickaxe",
-      "item.boudicas_mod.pirita_hoe": "Pirita Hoe"
+      "item.boudicas_mod.alejandrita": "Alejandrita",
+      "item.boudicas_mod.safiro": "Safiro",
+      "item.boudicas_mod.piritaaxe": "Piritaaxe"
     }
   },
   "workspaceSettings": {

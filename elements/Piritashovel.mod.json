@@ -3,20 +3,20 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "pirita_shovel",
+    "texture": "ppala",
     "customModelName": "Normal",
-    "name": "Pirita Shovel",
+    "name": "Piritashovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:BoudicasMod"
+      "value": "TOOLS"
     },
     "toolType": "Spade",
-    "harvestLevel": 6,
-    "efficiency": 12.0,
-    "attackSpeed": 1.0,
-    "enchantability": 42,
-    "damageVsEntity": 6.0,
-    "usageCount": 1164,
+    "harvestLevel": 1,
+    "efficiency": 6.0,
+    "attackSpeed": 1.5,
+    "enchantability": 14,
+    "damageVsEntity": 4.0,
+    "usageCount": 150,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [

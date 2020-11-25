@@ -2,44 +2,44 @@
 package net.mcreator.boudicasmod.item;
 
 @BoudicasModModElements.ModElement.Tag
-public class PiritaSwordItem extends BoudicasModModElements.ModElement {
+public class PiritaaxeItem extends BoudicasModModElements.ModElement {
 
-	@ObjectHolder("boudicas_mod:pirita_sword")
+	@ObjectHolder("boudicas_mod:piritaaxe")
 	public static final Item block = null;
 
-	public PiritaSwordItem(BoudicasModModElements instance) {
-		super(instance, 16);
+	public PiritaaxeItem(BoudicasModModElements instance) {
+		super(instance, 24);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new SwordItem(new IItemTier() {
+		elements.items.add(() -> new AxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 1164;
+				return 100;
 			}
 
 			public float getEfficiency() {
-				return 12f;
+				return 6f;
 			}
 
 			public float getAttackDamage() {
-				return 16f;
+				return 5f;
 			}
 
 			public int getHarvestLevel() {
-				return 6;
+				return 1;
 			}
 
 			public int getEnchantability() {
-				return 42;
+				return 14;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(PiritaIngotItem.block, (int) (1)));
 			}
-		}, 3, -3f, new Item.Properties().group(BoudicasModItemGroup.tab)) {
+		}, 1, -2.8f, new Item.Properties().group(ItemGroup.TOOLS)) {
 
-		}.setRegistryName("pirita_sword"));
+		}.setRegistryName("piritaaxe"));
 	}
 
 }
