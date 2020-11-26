@@ -252,6 +252,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "rock_drakescale"
+    },
+    {
+      "name": "Cucumber",
+      "type": "food",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cucumber"
     }
   ],
   "variable_elements": [],
@@ -271,6 +280,7 @@
       "block.boudicas_mod.sulfur_block": "Block of Sulfur",
       "item.boudicas_mod.copperingot": "Copperingot",
       "item.boudicas_mod.corn": "Corn",
+      "item.boudicas_mod.cucumber": "Cucumber",
       "item.boudicas_mod.sulfur_dust": "Sulfur Dust",
       "item.boudicas_mod.rock_drakebonespear": "Rock Drake_horn_espear",
       "item.boudicas_mod.piritashovel": "Piritashovel",
