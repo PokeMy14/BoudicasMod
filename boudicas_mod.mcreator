@@ -131,7 +131,7 @@
       "name": "PiritaHoe",
       "type": "tool",
       "sortid": 18,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "pirita_hoe"
@@ -221,7 +221,7 @@
       "name": "Ambar",
       "type": "item",
       "sortid": 20,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "ambar"
@@ -230,7 +230,7 @@
       "name": "Arsenic",
       "type": "item",
       "sortid": 21,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "arsenic"
@@ -239,7 +239,7 @@
       "name": "Piritashovel",
       "type": "tool",
       "sortid": 25,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "piritashovel"
@@ -248,7 +248,7 @@
       "name": "Safiro",
       "type": "item",
       "sortid": 17,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "safiro"
@@ -257,7 +257,7 @@
       "name": "Corn",
       "type": "food",
       "sortid": 22,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "corn"
@@ -266,7 +266,7 @@
       "name": "RockDrakebonespear",
       "type": "tool",
       "sortid": 26,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "rock_drakebonespear"
@@ -284,7 +284,7 @@
       "name": "Copperingot",
       "type": "item",
       "sortid": 15,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "copperingot"
@@ -293,7 +293,7 @@
       "name": "Piritaaxe",
       "type": "tool",
       "sortid": 24,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "piritaaxe"
@@ -320,7 +320,7 @@
       "name": "Ammolita",
       "type": "item",
       "sortid": 19,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "ammolita"
@@ -347,10 +347,19 @@
       "name": "Rockdrakehorn",
       "type": "item",
       "sortid": 26,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "rockdrakehorn"
+    },
+    {
+      "name": "Cucumber",
+      "type": "food",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cucumber"
     }
   ],
   "variable_elements": [],

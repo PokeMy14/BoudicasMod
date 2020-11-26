@@ -2,13 +2,13 @@
 package net.mcreator.boudicasmod.item;
 
 @BoudicasModModElements.ModElement.Tag
-public class PiritaaxeItem extends BoudicasModModElements.ModElement {
+public class PiritaAxeItem extends BoudicasModModElements.ModElement {
 
-	@ObjectHolder("boudicas_mod:piritaaxe")
+	@ObjectHolder("boudicas_mod:pirita_axe")
 	public static final Item block = null;
 
-	public PiritaaxeItem(BoudicasModModElements instance) {
-		super(instance, 24);
+	public PiritaAxeItem(BoudicasModModElements instance) {
+		super(instance, 15);
 	}
 
 	@Override
@@ -39,7 +39,7 @@ public class PiritaaxeItem extends BoudicasModModElements.ModElement {
 			}
 		}, 1, -2.8f, new Item.Properties().group(ItemGroup.TOOLS)) {
 
-		}.setRegistryName("piritaaxe"));
+		}.setRegistryName("pirita_axe"));
 	}
 
 }

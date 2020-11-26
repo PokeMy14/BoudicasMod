@@ -2,13 +2,13 @@
 package net.mcreator.boudicasmod.item;
 
 @BoudicasModModElements.ModElement.Tag
-public class PiritashovelItem extends BoudicasModModElements.ModElement {
+public class PiritaShovelItem extends BoudicasModModElements.ModElement {
 
-	@ObjectHolder("boudicas_mod:piritashovel")
+	@ObjectHolder("boudicas_mod:pirita_shovel")
 	public static final Item block = null;
 
-	public PiritashovelItem(BoudicasModModElements instance) {
-		super(instance, 25);
+	public PiritaShovelItem(BoudicasModModElements instance) {
+		super(instance, 17);
 	}
 
 	@Override
@@ -39,7 +39,7 @@ public class PiritashovelItem extends BoudicasModModElements.ModElement {
 			}
 		}, 1, -2.5f, new Item.Properties().group(ItemGroup.TOOLS)) {
 
-		}.setRegistryName("piritashovel"));
+		}.setRegistryName("pirita_shovel"));
 	}
 
 }
