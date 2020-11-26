@@ -5,10 +5,10 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.boudicasmod.itemgroup.BoudicasModItemGroup;
 import net.mcreator.boudicasmod.BoudicasModModElements;
 
 @BoudicasModModElements.ModElement.Tag
@@ -25,7 +25,7 @@ public class SulfurDustItem extends BoudicasModModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(BoudicasModItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("sulfur_dust");
 		}
 
