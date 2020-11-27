@@ -1,14 +1,23 @@
 
 package net.mcreator.boudicasmod.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.boudicasmod.BoudicasModModElements;
+
 @BoudicasModModElements.ModElement.Tag
-public class PiritaPickaxeItem extends BoudicasModModElements.ModElement {
-
-	@ObjectHolder("boudicas_mod:pirita_pickaxe")
+public class PiritapickaxeItem extends BoudicasModModElements.ModElement {
+	@ObjectHolder("boudicas_mod:piritapickaxe")
 	public static final Item block = null;
-
-	public PiritaPickaxeItem(BoudicasModModElements instance) {
-		super(instance, 14);
+	public PiritapickaxeItem(BoudicasModModElements instance) {
+		super(instance, 23);
 	}
 
 	@Override
@@ -38,8 +47,6 @@ public class PiritaPickaxeItem extends BoudicasModModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(PiritaIngotItem.block, (int) (1)));
 			}
 		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
-
-		}.setRegistryName("pirita_pickaxe"));
+		}.setRegistryName("piritapickaxe"));
 	}
-
 }

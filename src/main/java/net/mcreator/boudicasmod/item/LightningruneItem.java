@@ -12,11 +12,11 @@ import net.minecraft.block.BlockState;
 import net.mcreator.boudicasmod.BoudicasModModElements;
 
 @BoudicasModModElements.ModElement.Tag
-public class AmmolitaItem extends BoudicasModModElements.ModElement {
-	@ObjectHolder("boudicas_mod:ammolita")
+public class LightningruneItem extends BoudicasModModElements.ModElement {
+	@ObjectHolder("boudicas_mod:lightningrune")
 	public static final Item block = null;
-	public AmmolitaItem(BoudicasModModElements instance) {
-		super(instance, 19);
+	public LightningruneItem(BoudicasModModElements instance) {
+		super(instance, 30);
 	}
 
 	@Override
@@ -26,7 +26,7 @@ public class AmmolitaItem extends BoudicasModModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("ammolita");
+			setRegistryName("lightningrune");
 		}
 
 		@Override

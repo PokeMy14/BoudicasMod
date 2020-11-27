@@ -1,24 +1,29 @@
 
 package net.mcreator.boudicasmod.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.Rarity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.block.BlockState;
+
+import net.mcreator.boudicasmod.BoudicasModModElements;
+
 @BoudicasModModElements.ModElement.Tag
 public class CopperingotItem extends BoudicasModModElements.ModElement {
-
 	@ObjectHolder("boudicas_mod:copperingot")
 	public static final Item block = null;
-
 	public CopperingotItem(BoudicasModModElements instance) {
 		super(instance, 15);
-
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
-
 	public static class ItemCustom extends Item {
-
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("copperingot");
@@ -38,7 +43,5 @@ public class CopperingotItem extends BoudicasModModElements.ModElement {
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
 		}
-
 	}
-
 }

@@ -1,14 +1,23 @@
 
 package net.mcreator.boudicasmod.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.ShovelItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.boudicasmod.BoudicasModModElements;
+
 @BoudicasModModElements.ModElement.Tag
-public class PiritaShovelItem extends BoudicasModModElements.ModElement {
-
-	@ObjectHolder("boudicas_mod:pirita_shovel")
+public class PiritashovelItem extends BoudicasModModElements.ModElement {
+	@ObjectHolder("boudicas_mod:piritashovel")
 	public static final Item block = null;
-
-	public PiritaShovelItem(BoudicasModModElements instance) {
-		super(instance, 17);
+	public PiritashovelItem(BoudicasModModElements instance) {
+		super(instance, 25);
 	}
 
 	@Override
@@ -38,8 +47,6 @@ public class PiritaShovelItem extends BoudicasModModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(PiritaIngotItem.block, (int) (1)));
 			}
 		}, 1, -2.5f, new Item.Properties().group(ItemGroup.TOOLS)) {
-
-		}.setRegistryName("pirita_shovel"));
+		}.setRegistryName("piritashovel"));
 	}
-
 }
