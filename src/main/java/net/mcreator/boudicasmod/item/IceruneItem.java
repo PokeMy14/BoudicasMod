@@ -12,11 +12,11 @@ import net.minecraft.block.BlockState;
 import net.mcreator.boudicasmod.BoudicasModModElements;
 
 @BoudicasModModElements.ModElement.Tag
-public class LightningruneItem extends BoudicasModModElements.ModElement {
-	@ObjectHolder("boudicas_mod:lightningrune")
+public class IceruneItem extends BoudicasModModElements.ModElement {
+	@ObjectHolder("boudicas_mod:icerune")
 	public static final Item block = null;
-	public LightningruneItem(BoudicasModModElements instance) {
-		super(instance, 30);
+	public IceruneItem(BoudicasModModElements instance) {
+		super(instance, 31);
 	}
 
 	@Override
@@ -26,7 +26,7 @@ public class LightningruneItem extends BoudicasModModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("lightningrune");
+			setRegistryName("icerune");
 		}
 
 		@Override
