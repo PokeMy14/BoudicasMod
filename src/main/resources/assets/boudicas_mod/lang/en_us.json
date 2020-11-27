@@ -7,8 +7,8 @@
   "block.boudicas_mod.sulfur_block": "Block of Sulfur",
   "item.boudicas_mod.corn": "Corn",
   "item.boudicas_mod.sulfur_dust": "Sulfur Dust",
-  "item.boudicas_mod.lightningrune": "Lightningrune",
   "item.boudicas_mod.thronsrune": "Thronsrune",
+  "item.boudicas_mod.lightningrune": "Lightningrune",
   "item.boudicas_mod.icerune": "Icerune",
   "item.boudicas_mod.pirita_sword": "Pirita Sword",
   "item.boudicas_mod.safiro": "Safiro",
@@ -27,6 +27,7 @@
   "block.boudicas_mod.pirita_ore": "Pirita Ore",
   "block.boudicas_mod.pirita_block": "Block of Pirita",
   "item.boudicas_mod.alejandrita": "Alejandrita",
+  "item.boudicas_mod.venomrune": "Venomrune",
   "item.boudicas_mod.protectionrune": "Protectionrune",
   "item.boudicas_mod.piritaaxe": "Piritaaxe",
   "item.boudicas_mod.pirita_hoe": "Pirita Hoe"
