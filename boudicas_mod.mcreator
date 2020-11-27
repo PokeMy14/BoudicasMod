@@ -405,6 +405,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "protectionrune"
+    },
+    {
+      "name": "Thronsrune",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "thronsrune"
     }
   ],
   "variable_elements": [],
@@ -420,6 +429,7 @@
       "item.boudicas_mod.corn": "Corn",
       "item.boudicas_mod.sulfur_dust": "Sulfur Dust",
       "item.boudicas_mod.lightningrune": "Lightningrune",
+      "item.boudicas_mod.thronsrune": "Thronsrune",
       "item.boudicas_mod.icerune": "Icerune",
       "item.boudicas_mod.pirita_sword": "Pirita Sword",
       "item.boudicas_mod.safiro": "Safiro",
