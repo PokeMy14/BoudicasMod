@@ -1,29 +1,24 @@
 
 package net.mcreator.boudicasmod.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.item.Rarity;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.block.BlockState;
-
-import net.mcreator.boudicasmod.BoudicasModModElements;
-
 @BoudicasModModElements.ModElement.Tag
 public class LightningruneItem extends BoudicasModModElements.ModElement {
+
 	@ObjectHolder("boudicas_mod:lightningrune")
 	public static final Item block = null;
+
 	public LightningruneItem(BoudicasModModElements instance) {
 		super(instance, 30);
+
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
+
 	public static class ItemCustom extends Item {
+
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("lightningrune");
@@ -43,5 +38,7 @@ public class LightningruneItem extends BoudicasModModElements.ModElement {
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
 		}
+
 	}
+
 }

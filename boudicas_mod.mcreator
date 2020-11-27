@@ -362,15 +362,6 @@
       "registry_name": "pirita_axe_recipe"
     },
     {
-      "name": "Firerune",
-      "type": "item",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "firerune"
-    },
-    {
       "name": "Lightningrune",
       "type": "item",
       "sortid": 30,
@@ -378,6 +369,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "lightningrune"
+    },
+    {
+      "name": "Firerune",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "firerune"
     }
   ],
   "variable_elements": [],
@@ -392,7 +392,6 @@
       "block.boudicas_mod.sulfur_block": "Block of Sulfur",
       "item.boudicas_mod.corn": "Corn",
       "item.boudicas_mod.sulfur_dust": "Sulfur Dust",
-      "item.boudicas_mod.lightningrune": "Lightningrune",
       "item.boudicas_mod.pirita_sword": "Pirita Sword",
       "item.boudicas_mod.safiro": "Safiro",
       "item.boudicas_mod.silveringot": "Silveringot",
@@ -400,15 +399,14 @@
       "item.boudicas_mod.ruby": "Ruby",
       "itemGroup.tabboudicas_mod": "Boudica\u0027s Mod",
       "block.boudicas_mod.sulfur_ore": "Sulfur Ore",
-      "item.boudicas_mod.firerune": "Firerune",
       "item.boudicas_mod.copperingot": "Copperingot",
       "item.boudicas_mod.cucumber": "Cucumber",
       "item.boudicas_mod.rock_drakebonespear": "Rock Drake_horn_espear",
       "item.boudicas_mod.piritashovel": "Piritashovel",
       "item.boudicas_mod.piritapickaxe": "Piritapickaxe",
-      "item.boudicas_mod.alejandrita": "Alejandrita",
-      "block.boudicas_mod.pirita_block": "Block of Pirita",
       "block.boudicas_mod.pirita_ore": "Pirita Ore",
+      "block.boudicas_mod.pirita_block": "Block of Pirita",
+      "item.boudicas_mod.alejandrita": "Alejandrita",
       "item.boudicas_mod.piritaaxe": "Piritaaxe",
       "item.boudicas_mod.pirita_hoe": "Pirita Hoe"
     }
