@@ -32,7 +32,7 @@ public class PiritaSwordItem extends BoudicasModModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 16f;
+				return 3.5f;
 			}
 
 			public int getHarvestLevel() {
