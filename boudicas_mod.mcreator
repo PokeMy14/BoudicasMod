@@ -459,6 +459,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "glyphsmakerrecipe"
+    },
+    {
+      "name": "Draguraxe",
+      "type": "tool",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "draguraxe"
     }
   ],
   "variable_elements": [],
@@ -477,6 +486,7 @@
       "item.boudicas_mod.thronsrune": "Thronsrune",
       "item.boudicas_mod.icerune": "Icerune",
       "item.boudicas_mod.pirita_sword": "Pirita Sword",
+      "item.boudicas_mod.draguraxe": "Draguraxe",
       "item.boudicas_mod.safiro": "Safiro",
       "item.boudicas_mod.silveringot": "Silveringot",
       "item.boudicas_mod.rockdrakehorn": "Rockdrakehorn",
